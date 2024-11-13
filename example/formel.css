@@ -1,0 +1,46 @@
+head {
+    text-align:center;
+}
+body{
+    background-color: rgb(190, 182, 182);
+}
+
+form {
+    font-size: x-large;
+}
+label{
+
+    color:black
+}
+h4{
+text-shadow: 2px 2px 4px #000000;
+font-size: 40px;
+}
+ 
+
+form {
+    font-size:30%;
+}
+
+form {
+    text-align:left;
+}
+pre{
+    font-size: 100%;
+}
+textarea{
+    font-size: 30%;
+}
+div{
+    text-align:right;
+}
+h6{
+    text-align:  left;
+   
+}
+input{
+    background-color: rgb(122, 116, 116);
+}
+center{
+    font-size: 10px;
+}

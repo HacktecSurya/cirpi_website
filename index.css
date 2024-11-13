@@ -1,0 +1,48 @@
+.body_container{
+
+}
+.graduation_img{
+    height: 10%;
+    width: 100%;
+}
+
+.navbar{
+    gap: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.nav-link{
+    font-size:110%;
+    font-weight: 450;
+    color: gray;
+   
+}
+.nav-link:hover{
+   font-weight: 500;
+}
+.proverb{
+    color: gray;
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+.footer_page{
+    background-color:rgb(0, 170, 226)  ;
+}
+.education_pic{
+    height:100%; 
+    width: 100%;
+}
+.card-body {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 120%;
+    width: 80%;
+}
+.board_member{
+    width: 90%;
+}
+.lecture_img{
+    width: 100%;
+}
