@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About us</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Button Styles</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #4caf50, #81c784);
+      margin: 0;
+    }
+
+
+    .btn {
+      display: inline-block;
+      width: 30%; /* Adjust width percentage */
+      height: 10%; /* Adjust height percentage */
+      text-align: center;
+      line-height: 3; /* Adjust to vertically align text */
+      font-size: 1.2rem;
+      color: white;
+      text-decoration: none;
+      background: linear-gradient(135deg, #ff5722, #ff8a65);
+      border: none;
+      border-radius: 50px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: linear-gradient(135deg, #ff8a65, #ff5722);
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .btn:active {
+      transform: scale(0.95);
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    }
+  </style>
 </head>
 <body>
-    <h1>About Page </h1>
+  <div class="button-container">
+    <a href="#" class="btn">Click Me</a>
+    <a href="#" class="btn">Learn More</a>
+  </div>
 </body>
 </html>

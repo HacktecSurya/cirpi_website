@@ -1,112 +1,130 @@
-body{
+body {
     overflow-x: hidden;
 }
-.logo{
-    height: 10%;
-    width: 15%;
+
+.logo {
+    height: auto;
+    width: 120%;
 }
-.graduation_img{
-    height: 10%;
-    width: 100%;
+
+.logo_container{
+    align-items: center;
 }
-.navbar{
-    gap: 10%;
-    background-color: rgb(255, 255, 255);
+.web_name {
+    font-size: 320%;
+    text-align: center
 }
-.nav-link{
-    font-size:110%;
-    font-weight: 450;
-    color: gray;
-   
+.header-page {
+    background-color: #00c2a8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.nav-link:hover{
-   font-weight: 500;
-}
-.donate_img{
-    width: 8%;
-}
-.proverb{
-    color: gray;
-    font-size: xx-large;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
-}
-.footer_page{
-    padding-bottom: 3%;
-    background-color:rgb(222, 230, 233);
-}
-.education_pic{
-    height:100%; 
-    width: 100%;
-}
-.card-body {
-    box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.card {
-    box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 120%;
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%; 
+    padding: 1%;
     width: 80%;
 }
-.board_member{
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%; /* Adjusts spacing between nav buttons */
     width: 100%;
 }
-.lecture_img{
+
+.nav-link {
+    font-size: 120%;
+    font-weight: 600; /* Adjusted for a cleaner look */
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.nav_button {
+    border: none;
+    height: 150%; /* Increase the height to 150% */
+    width: 150%; /* Increase the width to 150% */
+    background-color: rgb(188, 201, 70);
+    border-radius: 8%;
+}
+
+.active-nav {
+    border: none;
+    height: 150%;
+    width: 130%;
+    background: linear-gradient(135deg, #ff8a65, #df5228);
+    border-radius: 8%;
+}
+
+.nav_button:hover {
+    border: none;
+    height: 150%;
+    width: 150%;
+    background: linear-gradient(135deg, #ff8a65, #df5228);
+    transform: scale(0.95);
+}
+
+
+.donate_img {
+    width: 10%;
+}
+
+.carousel-inner img {
+    height: 5% !important;
     width: 100%;
 }
-.board_name{
+
+.proverb {
     color: gray;
     font-size: xx-large;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
 }
-.board_col{
+
+.footer_page {
+    padding-bottom: 1%;
+    background-color: #008d82;
+}
+
+.education_pic {
+    height: 100%;
+    width: 100%;
+}
+
+.board_member {
+    width: 100%;
+}
+
+.lecture_img {
+    width: 100%;
+}
+
+.board_name {
+    color: gray;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+.board_col {
     text-align: center;
 }
 
-.social_media_icon{
+.social_icon {
+    list-style: none;
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.social_media_icon {
     color: black;
     font-size: 200%;
-}
-.footer_logo{
-    height: 50%;
-    width: 80%;
-    margin-left: 5%;
-    margin-top: 5%;
-}
- .quick-explore{
-    margin-top: 20%;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
- }
- .quick-explore a:hover{
-    text-decoration: none;
-    color:rgb(43, 138, 170);
- }
- .quick-explore a{
-    color: gray;
-    padding: 2%;
- }
- .address{
-    margin-top: 5%;
-    margin-left: 10%;
- }
- .social_icon{
-    padding-left: 10%;
- }
- .call_icon{
-    display: flex;
-    align-items: center;
- }
- .call_icon i{
-    margin-right: 5%;
- }
- .contact_head{
-    margin-top: 20%;
- }
-.social_media_head{
-    margin-top: 20%;
 }
