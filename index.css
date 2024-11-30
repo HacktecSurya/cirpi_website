@@ -4,19 +4,36 @@ body {
 
 .logo {
     height: auto;
-    width: 120%;
+    width: 60% !important;
+    float: right;
 }
 
 .logo_container{
-    align-items: center;
+    align-items:end !important;
+    width: 20% !important;
+}
+.graduate_contain{
+    background-color: #bbdbe7;
+}
+
+.education_txt{
+    text-align: center;
+}
+.learning_img{
+    display: flex;
+    width: 75%;
+    padding: 5%;
 }
 .web_name {
-    font-size: 320%;
-    text-align: center
+    font-size: 220%;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 .header-page {
-    background-color: #00c2a8;
-    display: flex;
+    /* margin: 0%; */
+    background-image: radial-gradient(circle, #1cb5e0, #0087c0, #005a9c, #002f73, #000046);
+    ;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
 }
@@ -27,6 +44,10 @@ body {
     align-items: center;
     gap: 5%; 
     padding: 1%;
+
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
     /* width: 80%; */
 }
 
@@ -34,37 +55,42 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5%; /* Adjusts spacing between nav buttons */
     width: 100%;
 }
 
 .nav-link {
-    font-size: 120%;
-    font-weight: 600; /* Adjusted for a cleaner look */
-    color: rgb(0, 0, 0);
+    font-size: 90%;
+    font-weight: 600; 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.nav-link:hover{
     text-decoration: none;
 }
 .nav_button {
-    border: none;
-    height: 150%; /* Increase the height to 150% */
-    width: 150%; /* Increase the width to 150% */
-    background-color: rgb(188, 201, 70);
+    /* border: none; */
+    border-color: #0069d1 ;
+    width: 120%; 
+    /* background-image: radial-gradient(circle, #1cb5e0, #0087c0, #005a9c, #002f73, #000046); */
+    /* background-image: radial-gradient(circle, #ffa9a3, #fe9c97, #fc908b, #fa8380, #f87575); */
+    background-image: linear-gradient(to right bottom,#4ade80,#3b82f6);
+    /* background-color:#FDB833; */
     border-radius: 8%;
+    
 }
 
 .active-nav {
-    border: none;
-    height: 150%;
-    width: 130%;
-    background: linear-gradient(135deg, #ff8a65, #df5228);
+    background: #ddf2ff ;
     border-radius: 8%;
+    text-decoration: none;
+    border: none;
+    transform: scale(0.95);
 }
 
 .nav_button:hover {
     border: none;
-    height: 150%;
-    width: 150%;
-    background: linear-gradient(135deg, #ff8a65, #df5228);
+    width: 120%; 
+    background: #FFD07B;
     transform: scale(0.95);
 }
 
@@ -88,16 +114,27 @@ body {
 
 .footer_page {
     padding-bottom: 1%;
-    background-color: #008d82;
+    /* background-color: #6daefb; */
+    background-image: radial-gradient(circle, #1cb5e0, #0087c0, #005a9c, #002f73, #000046);
 }
 
 .education_pic {
     height: 100%;
     width: 100%;
 }
+.founder_text{
+    color: rgb(255, 255, 255);
+}
+.Executive_comty{
+    color: rgb(255, 255, 255);
+}
 
-.board_member {
+.board_place{
     width: 100%;
+    background-image: radial-gradient(circle, #1cb5e0, #0087c0, #005a9c, #002f73,#000046);
+}
+.board_member {
+    width: 80%;
 }
 
 .lecture_img {
@@ -105,11 +142,12 @@ body {
 }
 
 .board_name {
-    color: gray;
+    color: rgb(255, 255, 255);
     font-size: xx-large;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
+    padding: 1%;
 }
 
 .board_col {
@@ -127,4 +165,8 @@ body {
 .social_media_icon {
     color: black;
     font-size: 200%;
+}
+
+#home_page{
+    width: 80%;
 }

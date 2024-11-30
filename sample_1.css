@@ -1,0 +1,55 @@
+/* General styling for container */
+.CJF7A2 {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Logo styling */
+  .MazNVa img {
+    width: 164px;
+    height: 161px;
+    object-fit: cover;
+  }
+  
+  /* Title styling */
+  .font_0 {
+    font-size: 35px;
+    line-height: 1.4em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .font_0 a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Menu Styling */
+  #comp-kmerqljf ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  
+  #comp-kmerqljf li {
+    padding: 10px 20px;
+  }
+  
+  #comp-kmerqljf a {
+    text-decoration: none;
+    color: #0073e6;
+    font-size: 16px;
+  }
+  
+  #comp-kmerqljf a:hover {
+    text-decoration: underline;
+  }
+  
+  .active {
+    font-weight: bold;
+    color: #ff6600;
+  }
+  
