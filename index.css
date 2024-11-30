@@ -5,8 +5,44 @@ body {
     height: 10%;
     width: 15%;
 }
-.graduation_img{
-    height: 10%;
+.graduate_contain{
+    background-color: #bbdbe7;
+}
+
+.education_txt{
+    text-align: center;
+}
+.learning_img{
+    display: flex;
+    width: 75%;
+    padding: 5%;
+}
+.web_name {
+    font-size: 220%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.header-page {
+    /* margin: 0%; */
+    background-image: radial-gradient(circle, #1cb5e0, #0087c0, #005a9c, #002f73, #000046);
+    ;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* width: 80%; */
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
 }
 .navbar{
