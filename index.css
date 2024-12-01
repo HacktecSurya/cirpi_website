@@ -12,23 +12,13 @@ body {
     align-items:end !important;
     width: 20% !important;
 }
-.graduate_contain{
-    background-color: #bbdbe7;
-}
 
-.education_txt{
-    text-align: center;
-}
-.learning_img{
-    display: flex;
-    width: 75%;
-    padding: 5%;
-}
 .web_name {
     font-size: 220%;
     text-align: center;
     color: rgb(255, 255, 255);
 }
+
 .header-page {
     /* margin: 0%; */
     background-image: radial-gradient(circle, #1cb5e0, #0087c0, #005a9c, #002f73, #000046);
@@ -38,17 +28,13 @@ body {
     align-items: center;
 }
 
+
 .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5%; 
     padding: 1%;
-
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* width: 80%; */
 }
 
 .navbar-nav {
@@ -64,12 +50,15 @@ body {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
+
 .nav-link:hover{
     text-decoration: none;
 }
+
 .nav_button {
     /* border: none; */
     border-color: #0069d1 ;
+    box-shadow: 2px 2px white;
     width: 120%; 
     /* background-image: radial-gradient(circle, #1cb5e0, #0087c0, #005a9c, #002f73, #000046); */
     /* background-image: radial-gradient(circle, #ffa9a3, #fe9c97, #fc908b, #fa8380, #f87575); */
@@ -94,7 +83,6 @@ body {
     transform: scale(0.95);
 }
 
-
 .donate_img {
     width: 10%;
 }
@@ -104,13 +92,76 @@ body {
     width: 100%;
 }
 
-.proverb {
-    color: gray;
-    font-size: xx-large;
+.proverb_txt{
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
+    color: grey;
+    font-size: 120%;
 }
+
+.lecture_img{
+    width: 100%;
+}
+
+/* cirpi education styles */
+
+.graduate_contain{
+    background-image: radial-gradient(circle, #1cb5e0, #005a9c, #002f73);
+    color: antiquewhite;
+}
+
+.education_head_txt{
+    text-align: center;
+}
+
+.education_txt{
+    text-align: justify;
+    padding: 2%;
+}
+
+.education_img{
+    width: 90%;
+    padding-bottom: 2%;
+}
+
+
+/* cirpi education styles 
+            End             */
+
+
+/* board members styles */
+
+.profile_logo{
+    width: 80%;
+}
+
+.board_name{
+    background-image: linear-gradient(to right, #000349, #002f74, #00589b, #0083be, #18afdc);
+    color: aliceblue;
+}
+
+.row_back_container{
+    /* background-image: linear-gradient(to right, #002f74, #00589b, #0083be, #18afdc); */
+    color: aliceblue;
+}
+
+.secretary_row{
+    background-image: linear-gradient(to right, #002f74, #00589b, #0083be, #18afdc);
+}
+
+.founder_row{
+    background-image: linear-gradient(to right, #002f74, #00589b, #0083be, #18afdc);
+}
+
+.co_founder_row{
+    background-image: linear-gradient(to left, #002f74, #00589b, #0083be, #18afdc);
+}
+
+.founder_img_col{
+    /* padding-bottom: 20%; */
+}
+
+/* board members styles
+            end  */
 
 .footer_page {
     padding-bottom: 1%;
@@ -121,37 +172,6 @@ body {
 .education_pic {
     height: 100%;
     width: 100%;
-}
-.founder_text{
-    color: rgb(255, 255, 255);
-}
-.Executive_comty{
-    color: rgb(255, 255, 255);
-}
-
-.board_place{
-    width: 100%;
-    background-image: radial-gradient(circle, #1cb5e0, #0087c0, #005a9c, #002f73,#000046);
-}
-.board_member {
-    width: 80%;
-}
-
-.lecture_img {
-    width: 100%;
-}
-
-.board_name {
-    color: rgb(255, 255, 255);
-    font-size: xx-large;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
-    padding: 1%;
-}
-
-.board_col {
-    text-align: center;
 }
 
 .social_icon {
@@ -170,3 +190,6 @@ body {
 #home_page{
     width: 80%;
 }
+
+/* board member styles */
+
