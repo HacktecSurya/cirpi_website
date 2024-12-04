@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    background-color: #fff4c2;
 }
 
 .logo {
@@ -9,15 +10,25 @@ body {
 }
 
 .web_name {
-    font-size: 250%;
-    text-align: center;
-    color: rgb(255, 255, 255);
+    font-size: 300%;
+    font-weight: 750 !important;
+    text-align: cener;
+    color:#745138;
 }
 
 .header-page {
-    background-image: radial-gradient(circle, #1cb5e0, #0087c0, #005a9c, #002f73, #000046);
+    /* border: 3px solid #5f2d06  !important;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    border-top: transparent !important; */
+    /* background-image: radial-gradient(circle, #1cb5e0, #0087c0, #005a9c, #002f73, #000046); */
+    /* background-image: radial-gradient(circle, #ffbd8e, #f3b68b, #e7af87, #dba984, #cfa281, #c69978, #bd9070, #b48767, #ab7a57, #a16d47, #986037, #8e5327); */
+ background-color: #d6b27b;
 }
 
+.carousel_block{
+    margin: 2% 0%;
+}
 .navbar-toggler{
     float: right !important;
 }
@@ -47,70 +58,26 @@ body {
 
 .nav-link:hover{
     text-decoration: none;
+    color: wheat;
 }
 
 .nav_button {
     border: none;
-    border-color: #0069d1 ;
     box-shadow: 2px 2px white;
     width: 120%; 
-    background-image: radial-gradient(circle, #1cb5e0, #0087c0, #005a9c, #002f73, #000046);
+    /* background-image: radial-gradient(circle, #1cb5e0, #0087c0, #005a9c, #002f73, #000046);
     background-image: radial-gradient(circle, #ffa9a3, #fe9c97, #fc908b, #fa8380, #f87575);
-    background-image: linear-gradient(to right bottom,#4ade80,#3b82f6);
+    background-image: linear-gradient(to right bottom,#4ade80,#3b82f6); */
+    padding: 5px 10px;
+    background-color: #70503a;
     border-radius: 8%;
 }
 
-/* .nav_button{
-    width: 120%; 
-    padding: 8px 20px;
-    border: none;
-    outline: none;
-    color:#ddf2ff;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 15px;
-}
-
-.nav_button::after{
-    content: "";
-    z-index: -1;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: #000000;
-    left: 0;
-    top: 0;
-    border-radius:12px ;
-} */
-
-/* .nav_button::before{
-    content: "";
-    background: linear-gradient(
-        45deg,#FF0052,#DBFF6B,#FF0052,#DBFF6B,#FF0052
-    );
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    background-size: 600;
-    z-index: -1;
-    width: calc(100% + 2px);
-    height: calc(100% + 2px);
-    filter: blur(12px);
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-    opacity: 1;
-} */
-
-
-
-
 .active-nav {
-    background: #ddf2ff ;
     border-radius: 8%;
     text-decoration: none;
     border: none;
-    transform: scale(0.95);
+    transform: scale(1.95);
 }
 
 .donate_img {
@@ -122,24 +89,26 @@ body {
     color: grey;
     font-size: 120%;
 }
-
-.lecture_img{
-    width: 100%;
-}
-
 /* cirpi education styles */
 
-.graduate_contain{
-    background-image: radial-gradient(circle, #1cb5e0, #005a9c, #002f73);
+.education_box{
+    /* background-image: radial-gradient(circle, #1cb5e0, #005a9c, #002f73);
+     */
+     /* background-image: radial-gradient(circle, #ffbd8e, #f3b68b, #e7af87, #dba984, #cfa281, #c69978, #bd9070, #b48767, #ab7a57, #a16d47, #986037, #8e5327); */
     color: antiquewhite;
+    background-color: #d6b27b;
+    
 }
 
 .education_head_txt{
     text-align: center;
+    color:#745138;
+
 }
 
 .education_txt{
     text-align: justify;
+    color:#9C6137;
     padding: 2%;
 }
 
@@ -148,10 +117,7 @@ body {
     padding-bottom: 2%;
 }
 
-
-/* cirpi education styles 
-            End             */
-
+/* ----------------------------------------------------------------------------------------------- */
 
 /* board members styles */
 
@@ -163,114 +129,55 @@ body {
 
 .board_name{
     font-weight:700;
-    color: rgb(0, 0, 0);
+    color:#745138;
     text-align: center;
-
 }
 
-
-.row_back_container{
-    color: aliceblue;
+.media_content_block{
+    margin: 2%;
 }
-
-.secretary_row{
-    color: black;
-}
-
-.founder_row{
-    color: black;
-}
-
-.co_founder_row{
-    color: black;
-}
-
-.founder_name {
+.board_para_head1 {
     font-size: 200%;
+    font-weight:550;
+    color: #745138;
 }
 
-.founder_txt{
+.board_para_head2{
     font-size: 150%;
+    color: #745138;
     
 }
-
-.secretary_bio{
-    text-indent: 10%;
-    display: flex;
-    text-align: justify;
-}
-.founder_bio{
-    text-indent: 10%;
-    display: flex;
-    text-align: justify;
-    /* padding: 1%; */
-}
-
-.co_founder_bio{
-    text-indent: 10%;
+.board_para_text{
+    color:#9C6137;
     display: flex;
     text-align: justify;
 }
 
-/* board members styles
-            end  */
-
-/* mentors styles */
-
-.mentors_name{
+.board_title{
+    font-size: 300%;
     font-weight:700;
-    color: rgb(0, 0, 0);
-    text-align: center;
+    max-width: fit-content;
+    margin: 2% auto;
+    background-color: #ffbd8e;
+    border: none;
+    color:#745138;
+    padding: 1% 2%;
+    border-radius: 20px;
+
 }
 
-.secretary_row{
-    color: black;
-}
-
-.founder_row{
-    color: black;
-}
-
-.co_founder_row{
-    color: black;
-}
-
-.founder_name {
-    font-size: 200%;
-}
-
-.founder_txt{
-    font-size: 150%;
-    
-}
-
-.secretary_bio{
-    text-indent: 10%;
-    display: flex;
-    text-align: justify;
-}
-.founder_bio{
-    text-indent: 10%;
-    display: flex;
-    text-align: justify;
-    /* padding: 1%; */
-}
-
-.co_founder_bio{
-    text-indent: 10%;
-    display: flex;
-    text-align: justify;
-}
-
-
-
-/* mentors styles 
-        end     */
+/* --------------------------------------------------------------------------------- */
 
 .footer_page {
     padding-bottom: 1%;
+    border: 3px solid #5f2d06  !important;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    border-bottom: transparent !important;
     /* background-color: #6daefb; */
-    background-image: radial-gradient(circle, #1cb5e0, #0087c0, #005a9c, #002f73, #000046);
+    /* background-image: radial-gradient(circle, #1cb5e0, #0087c0, #005a9c, #002f73, #000046); */
+    /* background-image: radial-gradient(circle, #ffbd8e, #f3b68b, #e7af87, #dba984, #cfa281, #c69978, #bd9070, #b48767, #ab7a57, #a16d47, #986037, #8e5327); */
+    background-color: #d6b27b;
 }
 
 .education_pic {
